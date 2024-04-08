@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 </title>
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            --padding:30;
+            --height:200px;
+            --width:200px;
+            --border-color:black;
+            --div1-col:rgb(255, 255, 221);
+            --div2-col:rgb(156, 255, 106);
+            --div3-col:rgb(160, 151, 255);
+
+        }
+        .div1{
+            height:var(--height);
+            width: var(--width);
+            background-color: var(--div1-col);
+        }
+        .div1{
+            height:var(--height);
+            width: var(--width);
+            background-color: var(--div1-col);
+            border: 2px solid var(--border-color);
+        }
+        .div2{
+            position: relative;
+            left: 200px;
+            height:var(--height);
+            width: var(--width);
+            background-color:  var(--div2-col);
+            border: 5px solid var(--border-color);
+        }
+        .div3{
+            position: relative;
+            left: 5px;
+            height:var(--height);
+            width: var(--width);
+            background-color: var(--div3-col);
+            border: 3px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, optio?</p></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </div>
+</body>
+</html>
