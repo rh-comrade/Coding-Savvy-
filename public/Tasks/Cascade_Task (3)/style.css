@@ -1,0 +1,18 @@
+/* Don't change the existing CSS.
+Make sure Yellow text is Yellow 
+Show the Red text inside the Yellow div
+The Outer div should be purple
+There should be 10px of padding around the borders. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+
