@@ -14,5 +14,13 @@ p {
   margin: 0;
   padding: 0;
 }
+.red-text{
+  background-color: yellow;
+  color: red;
+  padding: 10px;
+}
 
+#outer-box{
+  border: 10px solid purple;
+}
 
