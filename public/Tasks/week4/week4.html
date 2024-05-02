@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Flexbox Cards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    body {
+      font-family: 'Sono', sans-serif;
+      background-color: rgb(49, 11, 33);
+      
+    }
+
+    .pricing-container {
+      display: flex;
+      gap: 2rem;
+      height: 100vh;
+      align-items: center;
+
+    }
+
+    .price {
+      background: linear-gradient(to right, #C04848, #480048);
+      padding: 20px;
+      flex: 1;
+      max-width: 3500px;
+      border-radius: 5px;
+      text-align: center;
+
+    }
+
+    .plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .plan-price {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: whitesmoke;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .features li {
+      margin-bottom: 20px;
+    }
+
+    .plan-button {
+      padding: 10px;
+      background-color: blue;
+      border-radius: 5px;
+      color: white;
+      border: none;
+    }
+
+    @media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pricing-container">
+    <div class="price">
+      <div class="plan-title">Basic</div>
+      <div class="plan-price">₹Free/Cohort</div>
+      <ul class="features">
+        <li>✅ Introduction to Java Programming</li>
+        <li>✅ Basic Syntax and Concepts</li>
+        <li>✅ Hands-On Coding Exercises</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="price">
+      <div class="plan-title">Standard</div>
+      <div class="plan-price">₹4999/Cohort</div>
+      <ul class="features">
+        <li>✅ Java Fundamentals</li>
+        <li>✅ DSA in Java</li>
+        <li>✅ Core Subjects</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="price">
+      <div class="plan-title">Premium</div>
+      <div class="plan-price">₹5999/Cohort</div>
+      <ul class="features">
+        <li>✅ Front-End Devlopment</li>
+        <li>✅ Back-End Devlopment</li>
+        <li>✅ Cloud Services</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
